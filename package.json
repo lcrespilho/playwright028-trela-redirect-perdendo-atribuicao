@@ -1,0 +1,19 @@
+{
+  "name": "playwright028-trela-redirect-perdendo-atribuicao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "show-report": "playwright show-report",
+    "test-preset-medio": "PRESET=medio PLAYWRIGHT_TML_REPORT=$PRESET playwright test --repeat-each 20",
+    "test-preset-lento": "PRESET=lento PLAYWRIGHT_TML_REPORT=$PRESET playwright test --repeat-each 20",
+    "test-preset-lentao": "PRESET=lentao PLAYWRIGHT_TML_REPORT=$PRESET playwright test --repeat-each 20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.2"
+  }
+}
